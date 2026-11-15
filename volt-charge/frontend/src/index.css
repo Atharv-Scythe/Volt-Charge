@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --vc-emerald: #059669;
+  --vc-emerald-dark: #047857;
+  --vc-teal: #0d9488;
+  --vc-bg: #fafaf9;
+  --vc-card: #ffffff;
+  --vc-border: #e5e5e5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--vc-bg);
+  color: #171717;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4d4d4;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a3a3a3;
+}
+
+/* Smooth transitions */
+* {
+  transition-property: background-color, border-color, color, box-shadow;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+/* Reset transition for elements that need custom transitions */
+.no-transition {
+  transition: none !important;
+}
+
+@layer components {
+  .vc-card {
+    @apply bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow;
+  }
+
+  .vc-btn-primary {
+    @apply bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg px-4 py-2 font-medium text-sm transition-colors;
+  }
+
+  .vc-btn-secondary {
+    @apply border border-gray-200 hover:bg-gray-50 rounded-lg px-4 py-2 font-medium text-sm text-gray-700 transition-colors;
+  }
+}

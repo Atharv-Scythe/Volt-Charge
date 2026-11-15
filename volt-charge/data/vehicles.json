@@ -1,0 +1,74 @@
+[
+  {
+    "id": "VH001",
+    "type": "Tesla Model 3",
+    "batteryPercentage": 22,
+    "requiredPercentage": 80,
+    "chargingDuration": 35,
+    "arrivalTime": "2026-11-15T08:30:00",
+    "assignedStation": "ST001"
+  },
+  {
+    "id": "VH002",
+    "type": "Tata Nexon EV",
+    "batteryPercentage": 15,
+    "requiredPercentage": 90,
+    "chargingDuration": 55,
+    "arrivalTime": "2026-11-15T08:45:00",
+    "assignedStation": "ST001"
+  },
+  {
+    "id": "VH003",
+    "type": "MG ZS EV",
+    "batteryPercentage": 40,
+    "requiredPercentage": 85,
+    "chargingDuration": 28,
+    "arrivalTime": "2026-11-15T09:00:00",
+    "assignedStation": "ST003"
+  },
+  {
+    "id": "VH004",
+    "type": "Hyundai Kona Electric",
+    "batteryPercentage": 8,
+    "requiredPercentage": 100,
+    "chargingDuration": 60,
+    "arrivalTime": "2026-11-15T09:10:00",
+    "assignedStation": "ST005"
+  },
+  {
+    "id": "VH005",
+    "type": "BYD Atto 3",
+    "batteryPercentage": 35,
+    "requiredPercentage": 80,
+    "chargingDuration": 30,
+    "arrivalTime": "2026-11-15T09:20:00",
+    "assignedStation": "ST003"
+  },
+  {
+    "id": "VH006",
+    "type": "Mahindra XUV400",
+    "batteryPercentage": 50,
+    "requiredPercentage": 95,
+    "chargingDuration": 25,
+    "arrivalTime": "2026-11-15T09:35:00",
+    "assignedStation": "ST007"
+  },
+  {
+    "id": "VH007",
+    "type": "Kia EV6",
+    "batteryPercentage": 12,
+    "requiredPercentage": 80,
+    "chargingDuration": 42,
+    "arrivalTime": "2026-11-15T09:45:00",
+    "assignedStation": "ST001"
+  },
+  {
+    "id": "VH008",
+    "type": "BMW iX",
+    "batteryPercentage": 28,
+    "requiredPercentage": 90,
+    "chargingDuration": 38,
+    "arrivalTime": "2026-11-15T10:00:00",
+    "assignedStation": "ST011"
+  }
+]
